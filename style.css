@@ -1,0 +1,79 @@
+* {
+  margin: 10;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+}
+
+/* サイドバー */
+.sidebar {
+  width: 320px;
+  background: #1a1a1a;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.sidebar h1 {
+  margin-bottom: 50px;
+}
+
+.sidebar p {
+  margin-bottom: 20px;
+}
+
+/* スタジアムリスト */
+#stadium-list {
+  list-style: none;
+}
+
+#stadium-list li {
+  padding: 12px;
+  margin-bottom: 10px;
+  background: #2a2a2a;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+#stadium-list li:hover {
+  background: #444;
+  transform: translateX(5px);
+}
+
+/* 地図 */
+#map {
+  flex: 1;
+  height: 100vh;
+}
+
+/* プレミアリーグ */
+.premier-league {
+  border-left: 8px solid #e74c3c;
+}
+
+/* ラ・リーガ */
+.la-liga {
+  border-left: 8px solid #f1c40f;
+}
+
+/* セリエA */
+.serie-a {
+  border-left: 8px solid #3498db;
+}
+
+/* ブンデスリーガ */
+.bundesliga {
+  border-left: 8px solid #2c3e50;
+}
+
+/* リーグ・アン */
+.ligue-1 {
+  border-left: 8px solid #9b59b6;
+}
